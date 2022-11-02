@@ -45,13 +45,13 @@ int main()
 
 	int beginPositionExclamation = (widthFooter / 2) - (nuberExclamation / 2);
 
-	//Выводи левую половину колотитула
+	//Выводим левую половину колотитула
 	for (int i = 0; i < beginPositionExclamation; i++) std::cout << "~";
 
 	//Выводим восклицательные знаки
 	for (int i = 0; i < nuberExclamation; i++) std::cout << "!";
 
-	//Выводи правую половину колотитула
+	//Выводим правую половину колотитула
 	for (int i = beginPositionExclamation + nuberExclamation + 1; i <= widthFooter; i++) std::cout << "~";
 
 }
